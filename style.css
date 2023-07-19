@@ -1,0 +1,302 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo{
+    display:flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.font{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.logo-h1{
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.img-logo{
+    width: 70px;
+    height: 30px;
+}
+
+.img-logo img{
+    width: 100%;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.menu{
+    list-style-type: none;
+    
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;  
+    margin: auto;
+}
+.follow{
+    height:50px; 
+    width: 250px; 
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    display: flex;
+    align-items: center;
+}
+.follow-text{
+    margin-top: 10px;
+}
+
+.banner-1{
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    
+    
+}
+
+/* .goat-img{
+    /* margin-left: -20px; */
+    
+} */
+
+.goat-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("./images/Group\ 14.png");
+    width: 901px;
+    height: 700px;
+
+}
+
+.play-text{
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.goat-only-text{
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient( #F948B2, #8758F1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    margin-top: -29px;
+
+    
+} 
+
+.goat-text h4{
+    color: #534C64;
+    text-align: left;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: lowercase;
+    margin-top: -15px;
+    margin-left: 80px;
+}
+
+.btn{
+    display:flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 21px 40px;
+    border-radius: 48px;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    border: 0px;
+    text-align: center;
+
+}
+
+.btn1{
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+
+}
+
+.btn2{
+    background: #4EC5F7;
+}
+
+.online-games{
+    height: vh;
+}
+
+.online-games-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.online-games-text h5{
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    /* line-height: 30px; */
+}
+
+
+.online-games-text h1{
+    color: #0B0223;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    /* line-height: normal; */
+}
+
+.gradient{
+    background: -webkit-linear-gradient( #F948B2, #8758F1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.online-games-img{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.play-instantly{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.play-img{
+    width: 500px;
+    height: 450px;
+    border-radius: 8px;
+}
+
+.align-size{
+    width: 318.5px;
+    height: 365.083px;
+    border-radius: 8px;
+}
+
+.align{
+    margin-top: -150px;
+    margin-left: 800px;
+}
+
+.h5style{
+    color: #534C64;
+    /* text-align: center; */
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    
+}
+
+.play-instantly-text{
+    display:flex;
+    flex-direction: column;
+    gap:0px
+}
+
+.grid-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  
+  }
+  
+  .row button {
+    margin: 5px;
+  }
+
+  button{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 0px;
+    background-color: white;
+   
+
+  }
+
+  button:hover{
+    border-radius: 30px;
+    border: 2px solid #FF42A5;
+    cursor: pointer;
+    color: #FF42A5; ;
+  }
+
+.logoFooter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #0B0223;
+    color: #FFF;
+    padding: 20px;
+}
+.footer1{
+    display: flex;
+    gap: 40px;
+}
