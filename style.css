@@ -299,7 +299,7 @@ body{
 
   }
 
-  button:hover{
+  .row button:hover{
     border-radius: 30px;
     border: 2px solid #FF42A5;
     cursor: pointer;
@@ -365,4 +365,21 @@ body{
 
 section .btn{
     padding-bottom: 100px;
+}
+
+.btnNav{
+    display: flex;
+    flex-direction: row;
+}
+
+.goat-text{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.goat-text1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
